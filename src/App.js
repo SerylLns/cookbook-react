@@ -55,6 +55,7 @@ class App extends Component {
         <Hearder pseudo={this.state.pseudo} />
         <div className="cards">{cards}</div>
         <Admin
+          pseudo={this.state.pseudo}
           recipes={this.state.recettes}
           exampleRecipe={this.exampleRecipe}
           updateRecipe={this.updateRecipe}
